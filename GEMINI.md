@@ -24,4 +24,4 @@ Whenever asked to perform tasks like fixing bugs, refactoring/extracting code, o
 
 For detailed instructions on writing commit messages that adhere to Conventional Commits, please refer to the dedicated guide:
 
-[Conventional Commit Guidelines](./.gemini/COMMIT.md)
+[Conventional Commit Guidelines](./COMMIT.md)
