@@ -2,7 +2,7 @@
 
 ## Development Workflow Guidelines:
 
-Whenever asked to perform tasks like fixing bugs, refactoring/extracting code, or implementing new features, always follow these steps:
+Whenever asked to perform tasks like fixing bugs, refactoring/extracting code, or implementing new features, you **must always strictly adhere** to the following development workflow guidelines and the commit message guidelines:
 
 1.  **Analyze the prompt:**
     * Before creating a new branch, analyze the user's prompt to determine if it will involve making changes to any files.
