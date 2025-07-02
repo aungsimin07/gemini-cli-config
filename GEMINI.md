@@ -29,3 +29,13 @@ Whenever asked to perform tasks like fixing bugs, refactoring/extracting code, o
 For detailed instructions on writing commit messages that adhere to Conventional Commits, please refer to the dedicated guide:
 
 [Conventional Commit Guidelines](./COMMIT.md)
+
+## Handling Command Execution Failures
+
+When a `run_shell_command` execution fails or is not allowed, follow these steps:
+
+1.  **Inform the User:** Clearly state that the command failed, including any error messages received.
+2.  **Explain the Issue:** If the reason for failure is apparent (e.g., "Command is not allowed"), explain it concisely.
+3.  **Propose Alternatives:** Suggest a viable alternative. For restricted commands like `git commit`, offer the command for manual execution by the user in their terminal.
+4.  **Await Confirmation:** Do not proceed until the user confirms they have successfully completed the manual step or provides further instructions.
+5.  **Avoid Repetition:** Do not repeatedly attempt the same failed command without user intervention or a change in strategy.
