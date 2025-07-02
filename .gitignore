@@ -1,4 +1,5 @@
 .env
 installation_id
 settings.json
+/prompts
 /tmp
