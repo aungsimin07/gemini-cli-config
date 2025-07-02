@@ -44,7 +44,7 @@ Example: `fix: array parsing issue when multiple spaces were contained in string
 
 ### Body (Optional)
 
-A longer commit body MAY be provided after the short description, providing additional contextual information about the code changes. The body MUST begin one blank line after the description and can consist of any number of newline separated paragraphs.
+A longer commit body MAY be provided after the short description, providing additional contextual information about the code changes. The body MUST begin one blank line after the description and can consist of any number of newline separated paragraphs. When committing from the command line, you can use multiple `-m` flags for each line of the body.
 
 ### Footers (Optional)
 
